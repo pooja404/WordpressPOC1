@@ -46,8 +46,12 @@
 
         </div>
         <div class="container side-margin">
-          
-          <?php echo do_shortcode('[sp_wpcarousel id="20"]'); ?>
+           <span style="margin-right: 20px;"> <img class="img-size" src="<?php echo get_stylesheet_directory_uri(); ?>/images/slide1.png"></span>
+            <span style="margin-right: 20px;"><img class="img-size" src="<?php echo get_stylesheet_directory_uri(); ?>/images/slide2.png"></span>
+            <span style="margin-right: 20px;"><img class="img-size" src="<?php echo get_stylesheet_directory_uri(); ?>/images/slide3.png"></span>
+            <span style="margin-right: 20px;"><img class="img-size" src="<?php echo get_stylesheet_directory_uri(); ?>/images/slide4.png"></span>
+            <span style="margin-left: -13px;"><button style="border: none;" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/greenbutton.png" width= "69px"></button></span>
+         
         </div>
       </br>
     </br>
